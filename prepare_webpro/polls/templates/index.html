@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+<img src="{% static 'img.jpg' %}">
+<div class="container-fluid" style="border: 1px solid black">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>ทดสอบ</h1>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="{% static 'bootstrap/js/jquery.min.js' %}"></script>
+<script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+</html>
